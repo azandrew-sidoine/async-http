@@ -1,6 +1,6 @@
 {
     "name": "drewlabs/async-http",
-    "description": "Provide a function for sending Async HTTP requests",
+    "description": "Provides utility function(s) for making asynchronous HTTP requests",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": ">=6.0"
