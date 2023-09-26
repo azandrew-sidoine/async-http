@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9a616b3966c3bb6a2db27e3102dfb43",
+    "content-hash": "579986c64d1eb1b1991d496d58180a8f",
     "packages": [
         {
             "name": "drewlabs/async",
-            "version": "v0.1.0",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/azandrew-sidoine/async.git",
-                "reference": "c7b75330830eed55c723288a581f7ce1491912f0"
+                "reference": "bc16f27eaac1eb1d5dec1ba433823e89dd412cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/azandrew-sidoine/async/zipball/c7b75330830eed55c723288a581f7ce1491912f0",
-                "reference": "c7b75330830eed55c723288a581f7ce1491912f0",
+                "url": "https://api.github.com/repos/azandrew-sidoine/async/zipball/bc16f27eaac1eb1d5dec1ba433823e89dd412cfc",
+                "reference": "bc16f27eaac1eb1d5dec1ba433823e89dd412cfc",
                 "shasum": ""
             },
             "require": {
@@ -29,8 +29,10 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/async.php",
-                    "src/scheduler.php"
+                    "src/utility.php",
+                    "src/io.php",
+                    "src/scheduler.php",
+                    "src/async.php"
                 ],
                 "psr-4": {
                     "Drewlabs\\Async\\": "src/"
@@ -49,9 +51,9 @@
             "description": "Provides utility function for async programming in PHP",
             "support": {
                 "issues": "https://github.com/azandrew-sidoine/async/issues",
-                "source": "https://github.com/azandrew-sidoine/async/tree/v0.1.0"
+                "source": "https://github.com/azandrew-sidoine/async/tree/v0.1.2"
             },
-            "time": "2023-09-25T18:25:20+00:00"
+            "time": "2023-09-26T16:41:36+00:00"
         }
     ],
     "packages-dev": [
@@ -1138,16 +1140,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "5.1.0",
+            "version": "5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "c3fa8483f9539b190f7cd4bfc4a07631dd1df344"
+                "reference": "64f51654862e0f5e318db7e9dcc2292c63cdbddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/c3fa8483f9539b190f7cd4bfc4a07631dd1df344",
-                "reference": "c3fa8483f9539b190f7cd4bfc4a07631dd1df344",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/64f51654862e0f5e318db7e9dcc2292c63cdbddc",
+                "reference": "64f51654862e0f5e318db7e9dcc2292c63cdbddc",
                 "shasum": ""
             },
             "require": {
@@ -1161,7 +1163,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "5.0-dev"
+                    "dev-main": "5.1-dev"
                 }
             },
             "autoload": {
@@ -1204,7 +1206,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/5.1.0"
+                "source": "https://github.com/sebastianbergmann/exporter/tree/5.1.1"
             },
             "funding": [
                 {
@@ -1212,7 +1214,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-18T07:15:37+00:00"
+            "time": "2023-09-24T13:22:09+00:00"
         },
         {
             "name": "sebastian/global-state",

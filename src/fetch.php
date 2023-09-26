@@ -10,7 +10,7 @@ use Drewlabs\Async\PromiseInterface;
 use Drewlabs\Async\Awaitable;
 use function Drewlabs\Async\Future\async;
 use function Drewlabs\Async\Future\join;
-use function Drewlabs\Async\Scheduler\createSocket;
+use function Drewlabs\Async\IO\createSocket;
 
 /**
  * Creates a new `ResponseInterface` instance

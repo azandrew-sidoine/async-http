@@ -27,6 +27,6 @@
         "sort-packages": true
     },
     "require": {
-        "drewlabs/async": "^0.1.0"
+        "drewlabs/async": "^0.1.2"
     }
 }
